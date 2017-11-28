@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Googlemap</title>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="../CSS/normalize.css" type="text/css" rel="stylesheet" />
+    <link href="../CSS/nccworks12.css" type="text/css" rel="stylesheet" />
+    <link href="../CSS/mainGM.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600i" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/jquery-ui.min.css">
+
+
+
+
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
